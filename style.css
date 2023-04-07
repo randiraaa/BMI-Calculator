@@ -101,7 +101,6 @@ input[type="radio"] {
     margin-right: 20px;
 }
 
-
 .inputH label {
     display: block;
     font-size: 18px;
@@ -127,7 +126,6 @@ input[type="radio"] {
     margin-bottom: 20px;
 }
 
-
 .inputW label {
     display: block;
     font-size: 18px;
@@ -144,7 +142,5 @@ input[type="radio"] {
     font-size: 28px;
     font-family: "Nunito", sans-serif;
 }
-
-
 /* End Style Height Weight */
 
