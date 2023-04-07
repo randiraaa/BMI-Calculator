@@ -17,8 +17,25 @@ body {
 
 .box {
     text-align: center;
-    width: 500px;
+    width: 600px;
     background-color: #fafafa;
     border-radius: 14px;
-    box-shadow: 2px 2px 25px 5px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 25px 5px rgba(0,0,0,0.8);
 }
+
+h1 {
+    padding: 10px 0;
+    font-size: 35px;
+    color: rgb(0, 0, 0, 0.8);
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0, 0.8);
+}
+
+/* .content {
+    padding: 0 30px;
+} */
+
+
