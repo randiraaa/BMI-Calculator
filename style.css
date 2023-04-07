@@ -12,5 +12,13 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: rgb(97,138,254,0.9);
+    background-color: #C3ACD0;
+}
+
+.box {
+    text-align: center;
+    width: 500px;
+    background-color: #fafafa;
+    border-radius: 14px;
+    box-shadow: 2px 2px 25px 5px rgba(0,0,0,0.5);
 }
