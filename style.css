@@ -37,7 +37,7 @@ h3 {
 }
 
 .content {
-    padding: 0 60px;
+    padding: 0px 60px;
 }
 
 /* Input Name */
@@ -65,8 +65,9 @@ h3 {
     width: 70%;
     text-align: center;
     font-family: "Nunito", sans-serif;
-    font-size: 22px;
-    color: black;
+    font-size: 25px;
+    color: #8946af;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 /* End Input Name */
@@ -125,8 +126,9 @@ input[type="radio"] {
     width: 70%;
     text-align: center;
     font-family: "Nunito", sans-serif;
-    font-size: 22px;
-    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    color: #8946af;
     margin-bottom: 10px;
 }
 
@@ -153,8 +155,9 @@ input[type="radio"] {
     width: 70%;
     text-align: center;
     font-family: "Nunito", sans-serif;
-    font-size: 22px;
-    color: black;
+    font-size: 18px;
+    color: #8946af;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 /* End Style Height Weight */
@@ -192,15 +195,15 @@ button.calculate:hover {
     margin-top: 15px;
 }
 
-.result #c-result {
+.result #Cresult {
     font-size: 32px;
-    font-weight: 900;
-    color: black;
+    font-weight: 999;
+    color: #8946af;
     display: inline-block;
     padding: 10px 0;
     border-bottom: 2px solid #C3ACD0;
     width: 60%;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
 /* End Result */
 
@@ -210,52 +213,44 @@ button.calculate:hover {
     border: dashed 1px;
     border-radius: 7px;
     padding: 5px;
-    color: black;
     font-weight: 800;
+    margin-bottom: 10px;
 }
 /* End Comment */
 
 /* PopUp */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
     padding-top: 300px;
   
   }
 
-.modal-content {
+.popup-content {
     background-color: #fefefe;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
+    border: 2px solid #C3ACD0;
     width: 600px;
     border-radius: 10px;
-    box-shadow: #393c76 -1px 2px 2px 1px;
+    box-shadow: 2px 2px 25px 5px rgba(0,0,0,0.8);
 }
   
-#modaltext {
+#popupText {
     padding-top: 8px;
     padding-right: 5px;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     color: rgb(24, 23, 23);
-}
-  
-.modal-wrong {
-    border: 2px solid red;
-}
-  
-.modal-correct {
-    border: 2px solid green;
 }
 
 /* End PopUp */
@@ -271,7 +266,7 @@ button.calculate:hover {
 }
   
 .close:hover {
-    color: #d41111; 
+    color: black; 
 }
 /* End The Close Button */
 
@@ -297,7 +292,7 @@ button.calculate:hover {
     }
 
     .name input {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .inputH label, .inputW label {
@@ -316,7 +311,7 @@ button.calculate:hover {
         font-size: 18px;
     }
 
-    .modal-content {
+    .popup-content {
       width: 380px;
     }
 
