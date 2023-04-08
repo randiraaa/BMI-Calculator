@@ -50,5 +50,7 @@ function submitBmi() {
         result = 'Obesity';
     }
 
-    
+    resultComment.style.display = 'block';
+    document.querySelector('.comment').innerHTML = yourName.value + `, Youre are ${result}!`;
+    document.querySelector('#Cresult').innerHTML = bmi.toFixed(1);
 }
