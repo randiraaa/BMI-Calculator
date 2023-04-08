@@ -492,4 +492,4 @@ function submitBmi() {
 ![BMICALCULATORMBILE](bmi-calculatorMOBILE.png);
 
 ## Link Preview  
-Click [Preview](https://calculatorbodymassindex.netlify.app/)
+Click [Preview](https://calculator-bodymassindex.netlify.app/)
