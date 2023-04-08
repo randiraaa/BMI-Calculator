@@ -11,7 +11,7 @@
         <div class="container">
             <div class="box">
                 <h1>Check Your BMI</h1>
-                <h2>Enter your weight and height below to check your BMI results!</h2>
+                <h3>Enter your weight and height below to check your BMI results!</h3>
 
                 <div class="content">
 
@@ -19,34 +19,33 @@
                     <div class="name">
                         <label for="name">Your Name</label>
                         <input type="text" class="name-input" autocomplete="off" required>
+
+                        <!-- Select Gender -->
+                        <div class="select-gender">
+                                <label for="male">
+                                    <input type="radio" value="" name="radio" id="g-male"><p class="select-mf">Male</p>
+                                    <span class="checkmark"></span>
+                                </label>
+            
+                                <label for="female">
+                                    <input type="radio" value="" name="radio" id="g-female"><p class="select-mf">Female</p>
+                                    <span class="checkmark"></span>
+                                </label>
+                        </div>
+                        <!-- End Select Gender -->
                     </div>
                     <!-- End Input Name -->
-
-                    <!-- Select Gender -->
-                    <div class="select-gender">
-
-                        <label for="male">
-                            <input type="radio" value="" name="radio" id="g-male"><p class="select-m/f">Male</p>
-                            <span class="checkmark"></span>
-                        </label>
-
-                        <label for="female">
-                            <input type="radio" value="" name="radio" id="g-female"><p class="select-m/f">Female</p>
-                            <span class="checkmark"></span>
-                        </label>
-                    </div>
-                    <!-- End Select Gender -->
 
                     <!-- For Input Height & Weight -->
                     <div class="heightweight">
 
                         <div class="inputH">
-                            <label for="height">Height(cm)</label>
+                            <label for="height">Height (cm)</label>
                             <input type="number" value="" id="height" required>
                         </div>
 
                         <div class="inputW">
-                            <label for="weight">Weight(kg)</label>
+                            <label for="weight">Weight (kg)</label>
                             <input type="number" value="" id="weight" required>
                         </div>
 
