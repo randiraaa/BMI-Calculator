@@ -86,6 +86,7 @@ input[type="radio"] {
     margin: 0;
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
+    cursor: pointer;
 }
 
 .select-mf{
@@ -165,9 +166,9 @@ button.calculate {
     color: black;
     cursor: pointer;
     background:#dfd0e7;
-    border-radius: 12px;
-    padding: 12px 0;
-    width: 50%;
+    border-radius: 8px;
+    padding: 12px 28px;
+    display: inline-block;
     outline: none;
     border: none;
     transition: all 0.5s;
@@ -178,3 +179,57 @@ button.calculate:hover {
 }
 /* Style Button */
 
+/* Result */
+.result {
+    padding: 10px 20px;
+}
+
+.result p {
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+}
+
+.result #c-result {
+    font-size: 32px;
+    font-weight: 900;
+    color: black;
+    display: inline-block;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid #C3ACD0;
+    width: 30%;
+    margin-bottom: 25px;
+  }
+/* End Result */
+
+/* Comment */
+.comment {
+    display: none;
+    border: dashed 1px;
+    border-radius: 7px;
+    padding: 5px;
+    color: black;
+    font-weight: 800;
+}
+/* End Comment */
+
+/* PopUp */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 300px;
+  
+  }
+
+  /* End PopUp */
