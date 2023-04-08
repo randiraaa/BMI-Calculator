@@ -308,6 +308,10 @@ button.calculate:hover {
         font-size: 18px;
     }
 
+    .select-gender label {
+        font-size: 18px;
+    }
+
     button.calculate {
         font-size: 18px;
     }
