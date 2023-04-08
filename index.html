@@ -18,18 +18,16 @@
                     <!-- Input Name -->
                     <div class="name">
                         <label for="name">Your Name</label>
-                        <input type="text" class="name-input" autocomplete="off" required>
+                        <input type="text" class="name-input" id="nameinput" required>
 
                         <!-- Select Gender -->
                         <div class="select-gender">
                                 <label for="male">
-                                    <input type="radio" value="" name="radio" id="g-male"><p class="select-mf">Male</p>
-                                    <span class="checkmark"></span>
+                                    <input type="radio" name="radio" id="g-male"><p class="select-mf">Male</p>
                                 </label>
             
                                 <label for="female">
-                                    <input type="radio" value="" name="radio" id="g-female"><p class="select-mf">Female</p>
-                                    <span class="checkmark"></span>
+                                    <input type="radio" name="radio" id="g-female"><p class="select-mf">Female</p>
                                 </label>
                         </div>
                         <!-- End Select Gender -->
@@ -41,12 +39,12 @@
 
                         <div class="inputH">
                             <label for="height">Height (cm)</label>
-                            <input type="number" value="" id="height" required>
+                            <input type="number" id="height" required>
                         </div>
 
                         <div class="inputW">
                             <label for="weight">Weight (kg)</label>
-                            <input type="number" value="" id="weight" required>
+                            <input type="number" id="weight" required>
                         </div>
 
                     </div>
@@ -54,14 +52,14 @@
 
                     <!-- Button Calculate -->
                     <div>
-                        <button class="calculate" id="submit">Calculate BMI</button>
+                        <button class="calculate" id="submit" onclick="calculate()">Calculate BMI</button>
                     </div>
                     <!-- End Button Calculate -->
 
                     <!-- Result -->
                     <div class="result">
                         <p>Your BMI is</p>
-                        <div id="c-result">00.00</div>
+                        <div id="Cresult">00.00</div>
                         <p class="comment"></p>
                     </div>
                     <!-- End Result -->
@@ -71,14 +69,15 @@
             </div>
         </div>
 
-         <!-- The Modal -->
-        <div id="myModal" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
+        <!-- PopUp -->
+        <div id="myPopup" class="popup">
+            <!-- PopUp content -->
+            <div class="popup-content">
                 <span class="close">&times;</span>
-                <p id="modaltext"></p>
+                <p id="popupText"></p>
             </div>
         </div>
+        <!-- End PopUp -->
         
         <script src="script.js"></script>
     </body>
